@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="621" max="-2" attributes="0"/>
+                  <Component id="MeusProjetos_LB" min="-2" pref="612" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="CodigoOds_LB" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="CodigoOds_CB" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="DataDeCriaçao_LB" alignment="0" max="32767" attributes="0"/>
+                          <Component id="NomeUsuario_LB" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Descriçao_LB" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Telefone_LB" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="DescriçaoTextField" min="-2" pref="292" max="-2" attributes="0"/>
+                              <Component id="NomeUsuarioTextField" alignment="0" min="-2" pref="292" max="-2" attributes="0"/>
+                              <Component id="TelefoneTextField" alignment="1" min="-2" pref="292" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="DataDeCriaçaoTextField" alignment="1" min="-2" pref="292" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="CriarProjeto_btn" alignment="0" pref="132" max="32767" attributes="0"/>
+                          <Component id="Status_LB" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Status_CB" min="-2" pref="292" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="AtualizarProjeto_btn" min="-2" pref="132" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="ExcluirProjeto_btn" min="-2" pref="132" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="MeusProjetos_LB" pref="55" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="277" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CodigoOds_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="CodigoOds_CB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Descriçao_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="DescriçaoTextField" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NomeUsuario_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="NomeUsuarioTextField" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Telefone_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="TelefoneTextField" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="DataDeCriaçao_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="DataDeCriaçaoTextField" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Status_CB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="Status_LB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CriarProjeto_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AtualizarProjeto_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ExcluirProjeto_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="CriarProjeto_btn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Criar Novo Projeto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CriarProjeto_btnActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tabelaprojetos">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder/>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="7" rowCount="0">
+                <Column editable="false" title="Codigo/ODS" type="java.lang.String"/>
+                <Column editable="false" title="Descri&#xe7;&#xe3;o" type="java.lang.String"/>
+                <Column editable="false" title="Nome Usuario" type="java.lang.String"/>
+                <Column editable="false" title="Telefone" type="java.lang.String"/>
+                <Column editable="false" title="Data de cria&#xe7;&#xe3;o" type="java.lang.String"/>
+                <Column editable="false" title="Status" type="java.lang.String"/>
+                <Column editable="false" title="ID Banco" type="java.lang.Integer"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="rowHeight" type="int" value="50"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="MeusProjetos_LB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Meus Projetos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Descri&#xe7;aoTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="NomeUsuarioTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TelefoneTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TelefoneTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DataDeCria&#xe7;aoTextField">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CodigoOds_CB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="&quot;1- Erradica&#xe7;&#xe3;o da Pobreza&quot;"/>
+            <StringItem index="1" value="&quot;2- Fome Zero e Agricultura Sustent&#xe1;vel&quot;"/>
+            <StringItem index="2" value="&quot;3- Sa&#xfa;de e Bem-Estar&quot;"/>
+            <StringItem index="3" value="&quot;4- Educa&#xe7;&#xe3;o de Qualidade&quot;"/>
+            <StringItem index="4" value="&quot;5- Igualdade de G&#xea;nero&quot;"/>
+            <StringItem index="5" value="&quot;6- &#xc1;gua Pot&#xe1;vel e Saneamento&quot;"/>
+            <StringItem index="6" value="&quot;7- Energia Limpa e Acess&#xed;vel&quot;"/>
+            <StringItem index="7" value="&quot;8- Trabalho Decente e Crescimento Econ&#xf4;mico&quot;"/>
+            <StringItem index="8" value="&quot;9- Ind&#xfa;stria  Inova&#xe7;&#xe3;o e Infraestrutura&quot;"/>
+            <StringItem index="9" value="&quot;10- Redu&#xe7;&#xe3;o das Desigualdades&quot;"/>
+            <StringItem index="10" value="&quot;11- Cidades e Comunidades Sustent&#xe1;veis&quot;"/>
+            <StringItem index="11" value="&quot;12- Consumo e Produ&#xe7;&#xe3;o Respons&#xe1;veis&quot;"/>
+            <StringItem index="12" value="&quot;13- A&#xe7;&#xe3;o Contra a Mudan&#xe7;a Global do Clima&quot;"/>
+            <StringItem index="13" value="&quot;14- Vida na &#xc1;gua&quot;"/>
+            <StringItem index="14" value="&quot;15- Vida Terrestre&quot;"/>
+            <StringItem index="15" value="&quot;16- Paz  Justi&#xe7;a e Institui&#xe7;&#xf5;es Eficazes&quot;"/>
+            <StringItem index="16" value="&quot;17- Parcerias e Meios de Implementa&#xe7;&#xe3;o&quot;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CodigoOds_CBActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Status_CB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="Em Progresso"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CodigoOds_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo/ODS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Descri&#xe7;ao_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;ao"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NomeUsuario_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NomeUsuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Telefone_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DataDeCria&#xe7;ao_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DataDeCria&#xe7;ao"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Status_LB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AtualizarProjeto_btn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar Projeto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ExcluirProjeto_btn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Excluir Projeto"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
